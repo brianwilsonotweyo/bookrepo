@@ -11,13 +11,13 @@
         <script type="text/javascript" src="./js/materialize.min.js"></script>
         <script type="text/javascript" src="./js/app.js"></script>
 
-        <title>Hello Books</title>
+        <title>MAK Book Repo</title>
     </head>
     <body>
         <header class="">
           <nav class="transparent">
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo left"><i class="material-icons">book</i>Hello Books</a>
+              <a href="#!" class="brand-logo left"><i class="material-icons">book</i>MAK Book Repo</a>
               <ul class="right hide-on-small-and-down">
                   <li class="active"><a href="library.html">Library</a></li>
                   <li><a href="history.html">History</a></li>
@@ -36,9 +36,9 @@
             <div class="row">
                 <div class="container">
                     <div class="center">
-                        <h3 class="">All Books</h3>
-                        <p>Click on a title to see book details or click on borrow
-                            to borrow</p>
+                        <h3 class="">All Resources</h3>
+                        <p>Click on a title to see resource details or click on borrow
+                            to start reading</p>
                     </div>
                     <div class="">
                         <div class="col s12 m6">
@@ -46,9 +46,10 @@
                               <form class="" action="index.html" method="post">
                                   <select>
                                       <option value="" disabled selected>Filter By Category</option>
-                                      <option value="1">Javascript</option>
-                                      <option value="2">Python</option>
-                                      <option value="3">Ruby</option>
+                                      <option value="1">Year One</option>
+                                      <option value="2">Year Two</option>
+                                      <option value="3">Year Three</option>
+                                      <option value="4">Year Four</option>
                                   </select>
                               </form>
                           </div>
@@ -76,65 +77,99 @@
                         <tbody class="library">
                             <tr class="library-item">
                                 <td>
-                                    <img class="thumbnail" src="./images/eloquentjs_cover.png" alt="eloquent js">
+                                    <img class="thumbnail" src="./images/auto.jpg" alt="">
                                 </td>
-                                <td><a href="book-detail.html">Eloquent Javascript</a></td>
-                                <td>Marijn Haverbeke</td>
-                                <td>20</td>
+                                <td><a href="book-detail.html">Automobile Engineering</a></td>
+                                <td>S. K. Gupta</td>
+                                <td>25</td>
                                 <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
                             </tr>
+                        </tbody>
+                        <tbody class="library">
                             <tr class="library-item">
                                 <td>
-                                    <img class="thumbnail" src="./images/nodejs_succintly.png" alt="Node.js Succintly">
+                                    <img class="thumbnail" src="./images/comms.jpg" alt="">
                                 </td>
-                                <td><a href="#">Node Succintly</a></td>
-                                <td>Emanuele DelBono</td>
-                                <td>10</td>
+                                <td><a href="./book-detail2.html">Effective Communication</a></td>
+                                <td>James J. Downes</td>
+                                <td>15</td>
                                 <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
                             </tr>
+                        </tbody>
+                        <tbody class="library">
                             <tr class="library-item">
                                 <td>
-                                    <img class="thumbnail" src="./images/smashing_node.jpg" alt="Smashing Node.js">
+                                    <img class="thumbnail" src="./images/draw.jpg" alt="">
                                 </td>
-                                <td><a href="#">Smashing Node.js</a></td>
-                                <td>Guillermo Rauch</td>
-                                <td>5</td>
-                                <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
-                            </tr>
-                            <tr class="library-item">
-                                <td>
-                                    <img class="thumbnail" src="./images/intro_to_python.jpg" alt="Intoduction to programming">
-                                </td>
-                                <td><a href="#">Introduction To Programming Using Python</a></td>
-                                <td>Y. Daniel Liang</td>
+                                <td><a href="">Engineering Drawing and Design</a></td>
+                                <td>Cecil Jensen</td>
                                 <td>12</td>
                                 <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
                             </tr>
+                        </tbody>
+                        <tbody class="library">
                             <tr class="library-item">
                                 <td>
-                                    <img class="thumbnail" src="./images/learn_python_hard_way.jpg" alt="learn python the hard way">
+                                    <img class="thumbnail" src="./images/fluid.jpg" alt="">
                                 </td>
-                                <td><a href="#">Learn Python The Hard Way</a></td>
-                                <td>Zed Shaw</td>
+                                <td><a href="">Fluid Mechanics and Fluid Machines</a></td>
+                                <td>S. k . Gun</td>
+                                <td>13</td>
+                                <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody class="library">
+                            <tr class="library-item">
+                                <td>
+                                    <img class="thumbnail" src="./images/materials.jpg" alt="">
+                                </td>
+                                <td><a href="">Material Science and Engineering</a></td>
+                                <td>Cordon Glassbury</td>
                                 <td>5</td>
                                 <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
                             </tr>
+                        </tbody>
+                        <tbody class="library">
                             <tr class="library-item">
                                 <td>
-                                    <img class="thumbnail" src="./images/beginning_ruby.jpg" alt="Beginning Ruby">
+                                    <img class="thumbnail" src="./images/mech.jpg" alt="">
                                 </td>
-                                <td><a href="#">Beginning Ruby</a></td>
-                                <td>Peter Cooper</td>
-                                <td>3</td>
+                                <td><a href="">Automobile Engineering</a></td>
+                                <td>James J. Downes</td>
+                                <td>15</td>
                                 <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
                             </tr>
+                        </tbody>
+                        <tbody class="library">
                             <tr class="library-item">
                                 <td>
-                                    <img class="thumbnail" src="./images/python_201.jpg" alt="python 201">
+                                    <img class="thumbnail" src="./images/oil.jpg" alt="">
                                 </td>
-                                <td><a href="#">Python 201</a></td>
-                                <td>Michael Driscoll</td>
-                                <td>14</td>
+                                <td><a href="">Petroleum Engineering Mechanics</a></td>
+                                <td>James Chandler</td>
+                                <td>52</td>
+                                <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody class="library">
+                            <tr class="library-item">
+                                <td>
+                                    <img class="thumbnail" src="./images/prod.jpg" alt="">
+                                </td>
+                                <td><a href="">Petroleum Production Systems</a></td>
+                                <td>Christine Economides</td>
+                                <td>15</td>
+                                <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
+                            </tr>
+                        </tbody>
+                        <tbody class="library">
+                            <tr class="library-item">
+                                <td>
+                                    <img class="thumbnail" src="./images/python.jpg" alt="">
+                                </td>
+                                <td><a href="">Dynamic Systems with python</a></td>
+                                <td>Stephen Lynch</td>
+                                <td>18</td>
                                 <td><a href="#" class="btn waves-effect btn-small">Borrow</a></td>
                             </tr>
                         </tbody>
@@ -142,7 +177,7 @@
                     <section class="loading-wrap center" style="display:none">
                         <div class="loading">
                             <img src="images/loading.png" alt="Loading" class="rotate">
-                            <strong>&nbsp;&nbsp;Fetching more awesome books...</strong>
+                            <strong>&nbsp;&nbsp;Fetching more awesome resources...</strong>
                         </div>
                     </section>
                 </div>
